@@ -1,0 +1,116 @@
+h1 {
+    text-align: center;
+    padding: 20px;
+    border: 20px;
+    margin: 20px;
+}
+h2 {
+        text-align: center;
+}
+html, body, h2, h3,  ul, ol, li, p, a {
+    font-size: 100%;
+    font: inherit;
+    padding:10px;
+    border: 10px;
+    margin: 10px;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+p {
+    color: black
+}
+p.dvelop {
+    margin-top: 100px;
+}
+ol li {
+    font-size: 20px;
+}
+ul li {
+    font-size: 25px;
+}
+.Homepage {
+    font-size: 200px;
+    
+} 
+body {
+    line-height: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif ,'Times New Roman', Times, serif;
+    padding: 0 0 0 0;
+    background: #5f5f5f url(images/back.png) top left repeat;
+}
+.main-content {
+        background: #ffffff url(images/main.png) top left repeat;
+}   
+.header {
+    float: center;
+    padding-right: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+}
+.main-content {
+    width: 500px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #dddddd;
+    margin: 30px auto 0 auto;
+    background-color: grey;
+    color: white;
+}
+.photos {
+    list-style-type: none;
+    padding: 0;
+}
+.photos li {
+    display: inline;
+    padding-left: 11px;
+}
+.header img {
+    display: block;
+    margin: 0auto0auto;
+}
+.featured-image {
+    width: 500px;
+    height: 500px;
+    background: #ffffff url(images/featured.png) 
+    top left no-repeat;
+    text-transform: uppercase;
+}
+.comname {
+    float: center;
+    font-size: 30px;
+}
+label, input {
+    display: block;
+    font-weight: bold;
+} 
+label {
+    margin-bottom: 10px;
+}
+input {
+    width: 500px;
+    margin-bottom: 25px;
+}
+input[type=text] {
+    border: 2px solid #7facaa;
+    font-size: 24px;
+    padding: 7px;
+}
+textarea {
+    width: 400px;
+    height: 400px;
+    padding: 7px;
+    border: 2px solid #7facaa;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+input[type=checkbox], label[for=newsletter] {
+    display: inline;
+}
+input[type=checkbox], label[for=on-tour] {
+  display: inline;
+}
